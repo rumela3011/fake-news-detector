@@ -1,0 +1,148 @@
+body {
+ margin: 0;
+ padding: 0;
+ background: #413c69;
+}
+
+.title{
+  text-align: center;
+  color:#dddddd;
+  font-family: 'Girassol', cursive;
+  padding-top: 5%;
+}
+.sub-title{
+  text-align: center;
+  color:#dddddd;
+  font-family: 'Satisfy', cursive;
+  padding-bottom: 5%;
+}
+
+/*Button*/
+
+.buscar-caja {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: #2f3640;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+    box-shadow: 0 24px 20px 0 rgba(0, 0, 0, 0.3), 0 24px 20px 0 rgba(0, 0, 0, 0.30);
+
+}
+
+.buscar-caja:hover > .buscar-txt {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.buscar-caja:hover > .buscar-btn {
+ background: white;
+ color: black;
+    box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buscar-btn {
+ color: #e84118;
+ float: right;
+ width: 25px;
+ height: 25px;
+ border-radius: 50%;
+ background: #2f3640;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.buscar-btn > i {
+ font-size: 40px;
+}
+
+.buscar-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 1.0s;
+ line-height: 20px;
+ width: 0px;
+ font-weight: bold;
+ font-family: 'Gentium Basic', serif;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  padding: 0 0 0 0;
+}
+
+.navbar-brand{
+  font-family:  'Girassol', cursive;;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 57%;
+  padding-left: 2%;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{;
+  font-size: 1.2rem;
+  font-family: 'Gentium Basic', serif;
+}
+
+/*About*/
+#About{
+  background-color: white;
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Girassol', cursive;
+}
+.about-para{
+  font-family: 'Gentium Basic', serif;
+}
+/*Developer cards*/
+.card{
+  align-items: center;
+  margin-left: 8%;
+}
+.card-heading{
+  text-align: center;
+  font-family: 'Girassol', cursive;
+  margin-bottom: 3%;
+  color: white;
+}
+.cardimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.card-title{
+  font-family: 'Girassol', cursive;
+}
+.card-text{
+  font-family: 'Gentium Basic', serif;
+}
+/*Footer*/
+#footer{
+  margin-top: 7%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  text-align: center;
+  font-family: 'Gentium Basic', serif;
+  background-color: white;
+}
